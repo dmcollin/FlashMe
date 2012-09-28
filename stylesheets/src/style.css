@@ -1,0 +1,102 @@
+
+/** MAIN **/
+
+body{
+	width:1000px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1, h2{
+	text-align: center;
+}
+
+h3{
+	padding:8px;
+}
+
+
+.backgroundContainer{
+	background:#EAEAEA;
+	padding: 50px;
+}
+
+.linksContainer{
+	float:center;
+	margin-top:30px;
+	margin-left:150px;
+}
+
+.topContainer, .bottomContainer {
+	background:white;
+	font-family:tahoma;
+	border:solid;
+	border-color: #838B83;
+}
+
+.middleContainer{
+	padding: 45px;
+	background:white;
+	font-family:tahoma;
+	border:solid;
+	border-color: #838B83;
+	text-align: center;
+	height: 500px;
+}
+
+.bottomContainerLeft, .bottomContainerRight{
+	margin-top:60px;
+	margin-left:30px;
+	margin-right:30px;
+	width: 40%;
+	height: 160px;
+	border-style: solid;
+	border-radius: 15%;
+}
+.bottomContainerLeft{
+	float: left;
+}
+
+.bottomContainerRight{
+	float: right;
+}
+
+.intro{
+	padding: 25px;
+	text-align: center;
+}
+
+.greenHeader{
+	color:#3D9140;
+	font-size:31px;
+}
+
+.greenHeader2{
+	color:#3D9140;
+}
+
+.bottomLinksContainer{
+	float:center;
+}
+
+.spacer {
+	height:30px;
+	background:#EAEAEA;
+}
+
+.pillStyle>li>a{
+	display:block; 
+	color:green;
+}
+
+.pillStyle a:hover{
+	color:white;
+	background-color:green;
+}
+
+.title{
+	font-size: 40px;
+	color: black;
+}
+
+
