@@ -9,10 +9,12 @@ body{
 }
 h1, h2{
 	text-align: center;
+	color: #004C99;
 }
 
 h3{
 	padding:8px;
+	color: #004C99;
 }
 
 
@@ -29,7 +31,6 @@ h3{
 
 .topContainer, .bottomContainer {
 	background:white;
-	font-family:tahoma;
 	border:solid;
 	border-color: #838B83;
 }
@@ -37,11 +38,11 @@ h3{
 .middleContainer{
 	padding: 45px;
 	background:white;
-	font-family:tahoma;
 	border:solid;
 	border-color: #838B83;
 	text-align: center;
 	height: 500px;
+	color: #808080;
 }
 
 .bottomContainerLeft, .bottomContainerRight{
@@ -61,9 +62,14 @@ h3{
 	float: right;
 }
 
-.intro{
-	padding: 25px;
-	text-align: center;
+.containerText {
+	padding:25px;
+	text-align:center;
+	font-weight:bold;
+}
+
+.containerText p{
+	font-size: 20px;
 }
 
 .greenHeader{
@@ -95,8 +101,10 @@ h3{
 }
 
 .title{
-	font-size: 40px;
-	color: black;
+	font-size: 70px;
+	padding: 25px;
+	color: #004C99;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
 }
 
 
